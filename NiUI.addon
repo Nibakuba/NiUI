@@ -1,0 +1,15 @@
+
+## Title: NiUI
+## Description: A chill, vanilla-ish interface overhaul.
+## Author: Nibakuba
+
+## APIVersion: 101046
+## AddOnVersion: 100
+## Version: 1.0.0
+
+## DependsOn:
+## OptionalDependsOn:
+
+## SavedVariables: NiUI
+
+NiUI.lua
