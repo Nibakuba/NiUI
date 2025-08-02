@@ -4,7 +4,13 @@ NiUI.Name = "NiUI"
 
 local function Initialize()
 
-    
+    local Hooked = NiUI.playerFrames:HookAll()
+    local Reanchored = NiUI.playerFrames.ReanchorAll()
+
+    if not (Hooked and Reanchored) then
+        if not Hooked then d("HookAll failed") end
+        if not Reanchored then d("ReanchorAll failed") end
+    end
 
 end
 

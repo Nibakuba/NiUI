@@ -13,3 +13,5 @@
 ## SavedVariables: NiUI
 
 NiUI.lua
+
+NiUI/NiUI_PlayerFrames.lua
